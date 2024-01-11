@@ -2,5 +2,13 @@
   background: var(--primary-dark);
   color: var(--primary-light);
   border: 1px solid var(--primary-accent);
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.button:active {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  transition: background 0.5s ease, color 0.5s ease;
 }

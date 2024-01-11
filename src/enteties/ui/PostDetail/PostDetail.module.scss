@@ -4,6 +4,13 @@
   opacity: 1;
   text-align: center;
   color: var(--primary-light);
+  max-width: 50vw;
+}
+
+.post__closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .post__title {
@@ -12,6 +19,5 @@
 }
 
 .post__text {
-  max-width: 40vw;
   display: block;
 }

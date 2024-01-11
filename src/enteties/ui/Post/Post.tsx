@@ -3,6 +3,7 @@ import styles from './Post.module.scss'
 import { TPost } from './model'
 import { CSSTransition } from 'react-transition-group'
 import { NavLink, useLocation } from 'react-router-dom'
+import { RouteName } from 'shared'
 
 export const Post: FC<TPost> = (props) => {
   const { userId, id, title, body } = props
@@ -33,7 +34,7 @@ export const Post: FC<TPost> = (props) => {
           </h2>
           <span className={styles.post__text}>{body}</span>
           <NavLink
-            to={`/post/:${id}`}
+            to={`${RouteName.POST_ADRESS}:${id}`}
             className={styles.post__ellipsis}
             state={{ post: location }}
           >

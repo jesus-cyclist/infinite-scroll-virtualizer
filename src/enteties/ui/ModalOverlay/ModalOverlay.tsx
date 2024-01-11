@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { Modal } from '../../../shared/ui/Modal/Modal'
 import { Overlay } from '../../../shared/ui/Overlay/Overlay'
 import styles from './ModalOverlay.module.scss'
+import { RouteName } from 'shared'
 
 const modalRoot = document.getElementById('modal-root')
 
@@ -16,7 +17,7 @@ export const ModalOverLay: FC<TModalOverlay> = (props) => {
   const navigate = useNavigate()
 
   const closeModal = () => {
-    navigate('/')
+    navigate(RouteName.MAIN_PAGE)
   }
 
   return createPortal(
