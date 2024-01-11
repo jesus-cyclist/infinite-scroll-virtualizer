@@ -1,0 +1,15 @@
+.postList {
+  height: 100%;
+  overflow: scroll;
+}
+
+.postList::-webkit-scrollbar {
+  display: none;
+}
+
+.post {
+  padding: 1rem;
+  div {
+    border: 1px solid var(--primary-light);
+  }
+}

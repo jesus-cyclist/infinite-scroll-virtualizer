@@ -1,0 +1,32 @@
+:root {
+  --primary-dark: #2c3e50;
+  --primary-accent: #3498db;
+  --primary-light: #ecf0f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  position: relative;
+  min-height: 100%;
+}
+
+.app {
+  position: relative;
+  min-height: 100%;
+  background: var(--primary-dark);
+  color: var(--primary-light);
+  font-size: 16px;
+  line-height: 1.2;
+  height: 100vh;
+  max-height: 100vh;
+}

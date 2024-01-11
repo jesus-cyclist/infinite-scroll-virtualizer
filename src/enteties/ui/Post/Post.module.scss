@@ -1,0 +1,36 @@
+.post {
+  padding: 0.5rem 1rem;
+  position: relative;
+  transform: translateX(-10000px);
+}
+
+.postEnter {
+  transform: translateX(-10000px);
+}
+.postEnterActive {
+  transform: translateX(0);
+  transition: transform 1s ease;
+}
+.postEnterDone {
+  transform: translateX(0);
+  transition: transform 1s ease;
+}
+
+.post__title {
+  max-height: 1.2rem;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.post__text {
+  max-width: calc(100% - 2rem);
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.post__ellipsis {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--primary-light);
+}

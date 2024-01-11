@@ -1,0 +1,17 @@
+.post {
+  padding: 0.5rem 1rem;
+  position: relative;
+  opacity: 1;
+  text-align: center;
+  color: var(--primary-light);
+}
+
+.post__title {
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.post__text {
+  max-width: 40vw;
+  display: block;
+}
