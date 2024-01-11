@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/infinite-scroll-virtualizer/static/css/main.3e5fa9ee.css",
+    "main.js": "/infinite-scroll-virtualizer/static/js/main.d1aef785.js",
+    "index.html": "/infinite-scroll-virtualizer/index.html",
+    "main.3e5fa9ee.css.map": "/infinite-scroll-virtualizer/static/css/main.3e5fa9ee.css.map",
+    "main.d1aef785.js.map": "/infinite-scroll-virtualizer/static/js/main.d1aef785.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e5fa9ee.css",
+    "static/js/main.d1aef785.js"
+  ]
+}
